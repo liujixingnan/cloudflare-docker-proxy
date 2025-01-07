@@ -12,7 +12,7 @@
 2. follow the instructions to fork and deploy
 3. update routes as you requirement
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/renlm/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/liujixingnan/cloudflare-docker-proxy)
 
 ## Routes configuration tutorial
 
@@ -30,16 +30,16 @@
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker-io.renlm.cn": "https://registry-1.docker.io",
-     "gcr-io.renlm.cn": "https://gcr.io",
-     "ghcr-io.renlm.cn": "https://ghcr.io",
-     "quay-io.renlm.cn": "https://quay.io",
-     "registry-k8s-io.renlm.cn": "https://registry.k8s.io",
-  	 "docker.renlm.cn": "https://hub.docker.com",
-  	 "github.renlm.cn": "https://github.com",
-  	 "raw-githubusercontent-com.renlm.cn": "https://raw.githubusercontent.com",
-  	 "github-io.renlm.cn": "https://renlm.github.io",
-  	 "grafana-github-io.renlm.cn": "https://grafana.github.io",
+     "docker-io.liuji.site": "https://registry-1.docker.io",
+     "gcr-io.liuji.site": "https://gcr.io",
+     "ghcr-io.liuji.site": "https://ghcr.io",
+     "quay-io.liuji.site": "https://quay.io",
+     "registry-k8s-io.liuji.site": "https://registry.k8s.io",
+  	 "docker.liuji.site": "https://hub.docker.com",
+  	 "github.liuji.site": "https://github.com",
+  	 "raw-githubusercontent-com.liuji.site": "https://raw.githubusercontent.com",
+  	 "github-io.liuji.site": "https://renlm.github.io",
+  	 "grafana-github-io.liuji.site": "https://grafana.github.io",
    };
    ```
 

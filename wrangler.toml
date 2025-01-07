@@ -9,24 +9,24 @@ local_protocol = "http"
 [env.dev.vars]
 MODE = "debug"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "renlm.cn"
+CUSTOM_DOMAIN = "liuji.site"
 
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker-io.renlm.cn", custom_domain = true },
-#   { pattern = "gcr-io.renlm.cn", custom_domain = true },
-#   { pattern = "ghcr-io.renlm.cn", custom_domain = true },
-#   { pattern = "quay-io.renlm.cn", custom_domain = true },
-#   { pattern = "registry-k8s-io.renlm.cn", custom_domain = true },
-#   { pattern = "docker.renlm.cn", custom_domain = true },
-#   { pattern = "github.renlm.cn", custom_domain = true },
-#   { pattern = "raw-githubusercontent-com.renlm.cn", custom_domain = true },
-#   { pattern = "github-io.renlm.cn", custom_domain = true },
-#   { pattern = "grafana-github-io.renlm.cn", custom_domain = true },
+#   { pattern = "docker-io.liuji.site", custom_domain = true },
+#   { pattern = "gcr-io.liuji.site", custom_domain = true },
+#   { pattern = "ghcr-io.liuji.site", custom_domain = true },
+#   { pattern = "quay-io.liuji.site", custom_domain = true },
+#   { pattern = "registry-k8s-io.liuji.site", custom_domain = true },
+#   { pattern = "docker.liuji.site", custom_domain = true },
+#   { pattern = "github.liuji.site", custom_domain = true },
+#   { pattern = "raw-githubusercontent-com.liuji.site", custom_domain = true },
+#   { pattern = "github-io.liuji.site", custom_domain = true },
+#   { pattern = "grafana-github-io.liuji.site", custom_domain = true },
 # ]
 
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "renlm.cn"
+CUSTOM_DOMAIN = "liuji.site"
